@@ -1,14 +1,13 @@
 # AI Government Scheme Navigator
 
-Dashboard + eligibility finder + multilingual voice chatbot (English / Hindi / Marathi)
-over 295 Central and Maharashtra government schemes.
+Dashboard + eligibility finder + multilingual voice chatbot (English / Hindi / Marathi) over 295 Central and Maharashtra government schemes.
 
 ## Run it (you already have the venv)
-```
 venv\Scripts\activate
-python -m pip install -r requirements.txt      # new libraries were added
+python -m pip install -r requirements.txt # new libraries were added
 python -m streamlit run app.py
-```
+
+text
 
 ## Gemini key (needed for smart answers + voice input)
 The key is already inside the `.env` file, so the chatbot loads it automatically.
@@ -18,6 +17,7 @@ Without a key the chatbot still works in basic mode (finds schemes, no translati
 Spoken answers use gTTS and need internet only.
 
 ## Pages
+
 | Page | What it does |
 |---|---|
 | Home (views/home.py) | What the site is about, 3-language text, buttons to every section |
